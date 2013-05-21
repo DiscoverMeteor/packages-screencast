@@ -1,0 +1,24 @@
+<body>
+  {{>body}}
+</body>
+
+<template name="body">
+  {{loginButtons}}
+  
+  <ul>
+    {{#each rooms}}
+      <li class="room">{{name}}</li>
+    {{/each}}
+  </ul>
+  
+  {{#with currentRoom}}
+    <h1>You're in {{name}}!</h1>
+    <ul>
+      {{#each presences}}
+        <li>{{email}}</li>
+      {{/each}}
+    </ul>
+  {{/with}}
+
+  {{> logs_bootstrap}}
+</template>

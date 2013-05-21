@@ -1,0 +1,42 @@
+{
+  "meteor": {
+    "git": "https://github.com/meteor/meteor.git",
+    "branch": "master",
+    "commit": "5d736d4bf0448c7db1f9b47124dfafc34a9631bb"
+  },
+  "dependencies": {
+    "basePackages": {
+      "moment": {},
+      "observatory": {},
+      "presence": {},
+      "publish-with-relations": {}
+    },
+    "packages": {
+      "moment": {
+        "git": "https://github.com/possibilities/meteor-moment.git",
+        "tag": "v1.7.0",
+        "commit": "c64b6ec0e714b9556f4b6643d430b868ba69d3d7"
+      },
+      "observatory": {
+        "git": "https://github.com/jhoxray/observatory.git",
+        "tag": "v0.2.1",
+        "commit": "3a3302c086fc9e9c59adf9dfc01e88d746f6c501"
+      },
+      "presence": {
+        "git": "https://github.com/tmeasday/meteor-presence.git",
+        "tag": "v0.2.0",
+        "commit": "cb103275ba67e524bf3a9cce4ff0b36f03959d1b"
+      },
+      "publish-with-relations": {
+        "git": "https://github.com/erundook/meteor-publish-with-relations.git",
+        "tag": "v0.1.5",
+        "commit": "98213e9f056b139597c99fb9ec2884ae6be76d91"
+      },
+      "observatory-apollo": {
+        "git": "https://github.com/superstringsoftware/observatory-apollo.git",
+        "branch": "master",
+        "commit": "b754bb265ef3df07a406f2b342a169e951e6caee"
+      }
+    }
+  }
+}
